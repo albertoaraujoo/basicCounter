@@ -112,15 +112,14 @@ text-align: center;
 .cEle4 {
   font-size:2vw;
   width:35vw;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%)
+  
 }
 .container{
   height:400px;
   width: 200px;
-  margin-top:50px;
-  margin-bottom: 100px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%)
 }
 
 .cEle1 {
