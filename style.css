@@ -1,0 +1,165 @@
+body {
+
+    background-color: #252121;
+    
+}
+.container{
+
+    color:white;
+    border: solid black 1px;
+    border-radius:10px;
+    width: 35vw;
+    margin: auto;
+    margin-top:250px;
+    height:650px;
+    background-color:#e2c00f;
+    
+}
+
+.cEle1 {
+    
+   letter-spacing: 5px;
+   color:black;
+   text-align: center;
+   font-family: 'Tourney', cursive;
+   font-size: 2vw;
+}
+
+
+.cEle2 {
+
+   
+   letter-spacing: 5px;
+   color:black;
+   text-align: center;
+   font-family: 'Tourney', cursive;
+   border: solid 2px black;
+   border-right:0;
+   border-left:0;
+   
+
+
+}
+
+
+#num{
+
+font-size:4rem;
+margin:0;
+color: #e2c00f;
+font-family: 'Tourney', cursive;
+padding: 10px;
+background-color: black;
+text-align: center;
+
+}
+
+
+
+.cEle3:active {
+  background-color: black;
+  color: #e2c00f;
+}
+
+.cEle2:active {
+    background-color: black;
+    color: #e2c00f;
+  }
+
+
+
+.cEle3 {
+
+   letter-spacing: 5px;
+   color:black;
+   text-align: center;
+   font-family: 'Tourney', cursive;
+   border: solid 2px black;
+   border-right:0;
+   border-left:0;
+  
+}
+
+.cEle4:active {
+    background-color: #e2c00f;
+    
+    color: black;
+  }
+
+
+
+.cEle4 {
+
+    margin-top:40px;
+    text-align: center;
+    width:15vw;
+    letter-spacing: 5px;
+    font-family: 'Tourney', cursive;
+    background-color: black;
+    color: #e2c00f;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    border : solid black 8px;
+    font-size: 1vw;
+}
+
+
+@media screen and (max-width: 400px){
+
+.cEle4 {
+  font-size:2vw;
+  width:35vw;
+  margin-top: 30px;
+}
+.container{
+  height:400px;
+  width: 200px;
+}
+
+.cEle1 {
+  font-size:5vw;
+}
+
+.cEle2, .cEle3 {
+
+  font-size:5.5vw;
+}
+
+}
+
+@media screen and (max-width: 1050px){
+
+  .container{
+
+    height: 520px;
+  }
+}
+@media screen and (max-width: 1050px){
+
+  .container{
+
+    height: 480px;
+  }
+}
+
+@media screen and (max-width: 560px){
+
+  .container{
+    height:480px;
+    width: 300px;
+  }
+
+  .cEle1 {
+    font-size:5vw;
+  }
+
+  .cEle4 {
+    font-size:2vw;
+    width:25vw;
+    margin-top: 20px;
+  }
+
+}
