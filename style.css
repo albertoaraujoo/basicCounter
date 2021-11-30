@@ -117,6 +117,7 @@ text-align: center;
 .container{
   height:400px;
   width: 200px;
+  margin-bottom: 80px;
 }
 
 .cEle1 {
